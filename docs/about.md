@@ -40,7 +40,7 @@ I'm a 2nd year DPhil student in Machine Learning at the University of Oxford, su
 
 I'm currently working on **Infusion** as part of the UK AISI Challenge Fund - an influence function-guided model poisoning framework. I'm participating in **Neel Nanda's MATS 10.0 Exploration Phase** and recently served as a **Teaching Assistant for ARENA 7.0** (Mechanistic Interpretability week).
 
-Previously, I was a Research Scientist Intern at Spotify and worked with the UK AI Security Institute (AISI) on their Bounty Programme. I was also the founding Research Scientist at Convergence (acquired by Salesforce for est. $200M), contributing to Proxy, a state-of-the-art multimodal web agent with 100k+ users.
+Previously, I was a Research Scientist Intern at Spotify and worked with UK AISI on agentic scaffolds for Inspect as part of their Bounty Programme. I was also the founding Research Scientist at Convergence (acquired by Salesforce for est. $200M), contributing to Proxy, a state-of-the-art multimodal web agent with 100k+ users.
 
 I'm a member of LISA (London Initiative for Safe AI) and enjoy playing trumpet in a funk band, running bouldering socials, and helping new climbers get certified.
 
