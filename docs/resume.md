@@ -14,7 +14,7 @@
     <div class="timeline-desc">AI Security and Safety research supervised by Jakob Foerster.</div>
   </div>
 
-  <div class="timeline-item">
+  <!-- <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
       <span class="timeline-org">Cohere</span>
@@ -23,7 +23,7 @@
     </div>
     <div class="timeline-meta">London, UK • Pretraining Team</div>
     <div class="timeline-desc">Exploring more efficient Influence Functions for AI Security applications.</div>
-  </div>
+  </div> -->
 
   <div class="timeline-item">
     <span class="timeline-dot"></span>
