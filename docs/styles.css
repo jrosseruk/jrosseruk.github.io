@@ -1263,3 +1263,70 @@ html {
         opacity: 0.8;
     }
 }
+
+/* ============================= */
+/* Resources Grid Component      */
+/* ============================= */
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.resource-card {
+    background-color: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+}
+
+.resource-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px var(--color-shadow);
+}
+
+.resource-preview {
+    width: 100%;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    background-color: var(--color-border);
+}
+
+.resource-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+.resource-name {
+    padding: 0.625rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-accent-2);
+    text-align: center;
+    line-height: 1.3;
+}
+
+.resource-card:hover .resource-name {
+    color: var(--color-accent);
+}
+
+@media (max-width: 640px) {
+    .resources-grid {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 1rem;
+    }
+
+    .resource-name {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+    }
+}

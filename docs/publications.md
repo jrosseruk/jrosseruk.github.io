@@ -49,7 +49,7 @@
     </div>
     <div class="publication-content">
         <h3 class="publication-title">
-            <a href="https://openreview.net/pdf?id=5HGu0ZqBl9" class="publication-link">
+            <a href="https://arxiv.org/pdf/2510.19875" class="publication-link">
                 Stream: Scaling Mechanistic Interpretability to Long Context in LLMs via Sparse Attention
             </a>
         </h3>
@@ -58,7 +58,7 @@
         <div class="publication-year">2025</div>
         <div class="publication-tags">
             <span class="tag tag-safety">Mechanistic Interpretability</span>
-            <a href="https://openreview.net/pdf?id=5HGu0ZqBl9" class="tag tag-arxiv">ARXIV</a>
+            <a href="https://arxiv.org/pdf/2510.19875" class="tag tag-arxiv">ARXIV</a>
         </div>
     </div>
 </div>
