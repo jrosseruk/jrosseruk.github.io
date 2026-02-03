@@ -15,4 +15,10 @@ Useful cheatsheets and reference materials.
         </div>
         <div class="resource-name">TransformerLens & PyTorch Quick Reference (LaTeX Source)</div>
     </a>
+    <a href="assets/TransformerLens___PyTorch_Quick_Reference.md" class="resource-card">
+        <div class="resource-preview">
+            <img src="assets/transformerlens_preview-1.png" alt="TransformerLens & PyTorch Quick Reference (Markdown)">
+        </div>
+        <div class="resource-name">TransformerLens & PyTorch Quick Reference (Markdown)</div>
+    </a>
 </div>
