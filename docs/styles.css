@@ -1305,6 +1305,23 @@ html {
     object-position: top;
 }
 
+.resource-preview-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-bg-accent);
+}
+
+.resource-preview-icon svg {
+    width: 48px;
+    height: 48px;
+    color: var(--color-accent-2);
+    transition: color 0.2s ease;
+}
+
+.resource-card:hover .resource-preview-icon svg {
+    color: var(--color-accent);
+}
 
 .resource-name {
     padding: 0.625rem 0.75rem;

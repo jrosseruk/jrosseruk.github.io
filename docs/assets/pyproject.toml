@@ -1,0 +1,90 @@
+[project]
+name = "new_project"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+  # notebooks / jupyter
+  "jupyterlab>=4.2,<5.0",
+  "notebook>=7.2,<8.0",
+  "ipykernel",
+
+  # core DS stack
+  "pandas",
+  "numpy",
+  "scikit-learn",
+  "matplotlib",
+  "seaborn",
+
+  # HF / training
+  "transformers",
+  "datasets",
+  "accelerate>=0.31.0",
+  "safetensors>=0.4.2",
+  "tqdm>=4.66.4",
+  "huggingface-hub",
+
+  # mech interp + friends
+  "transformer-lens",
+  "sae-lens",
+  "circuitsvis",
+  "nnsight",
+  "pyvene",
+  "eindex",
+
+  # math / perf
+  "einops>=0.8.0",
+  "einconv>=0.1.0",
+  "opt_einsum>=3.3.0",
+  "polars",
+  "numba",
+  "triton",
+
+  # viz
+  "plotly==6.4.0",
+  "ipywidgets==8.1.8",
+  "anywidget==0.9.20",
+  "bokeh",
+  "altair",
+  "pygwalker",
+
+  # utilities
+  "wandb==0.22.1",
+  "rich",
+  "hydra-core",
+  "typer",
+  "pyyaml",
+  "requests",
+  "tabulate",
+  "openai",
+
+  # data
+  "pyarrow",
+  "h5py",
+
+  # typing / shape checking
+  "jaxtyping",
+  "beartype",
+
+  # SAE viz
+  "sae-vis",
+
+  # ---- PyTorch (CUDA 12.8) ----
+  "torch==2.7.0+cu128",
+  "torchvision",
+]
+
+[tool.uv]
+# Only resolve for Linux (since we're using CUDA wheels)
+environments = ["sys_platform == 'linux'"]
+
+[tool.uv.sources]
+# Tell uv that torch/torchvision should come from the CUDA 12.8 PyTorch index
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
