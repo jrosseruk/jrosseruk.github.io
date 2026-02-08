@@ -9,14 +9,12 @@ dependencies = [
   "jupyterlab>=4.2,<5.0",
   "notebook>=7.2,<8.0",
   "ipykernel",
-
   # core DS stack
   "pandas",
   "numpy",
   "scikit-learn",
   "matplotlib",
   "seaborn",
-
   # HF / training
   "transformers",
   "datasets",
@@ -24,7 +22,6 @@ dependencies = [
   "safetensors>=0.4.2",
   "tqdm>=4.66.4",
   "huggingface-hub",
-
   # mech interp + friends
   "transformer-lens",
   "sae-lens",
@@ -32,7 +29,6 @@ dependencies = [
   "nnsight",
   "pyvene",
   "eindex",
-
   # math / perf
   "einops>=0.8.0",
   "einconv>=0.1.0",
@@ -40,7 +36,6 @@ dependencies = [
   "polars",
   "numba",
   "triton",
-
   # viz
   "plotly==6.4.0",
   "ipywidgets==8.1.8",
@@ -48,7 +43,6 @@ dependencies = [
   "bokeh",
   "altair",
   "pygwalker",
-
   # utilities
   "wandb==0.22.1",
   "rich",
@@ -58,21 +52,21 @@ dependencies = [
   "requests",
   "tabulate",
   "openai",
-
   # data
   "pyarrow",
   "h5py",
-
   # typing / shape checking
   "jaxtyping",
   "beartype",
-
   # SAE viz
   "sae-vis",
-
   # ---- PyTorch (CUDA 12.8) ----
   "torch==2.7.0+cu128",
   "torchvision",
+  "vllm>=0.2.5",
+  "python-dotenv>=1.2.1",
+  "jsonlines>=4.0.0",
+  "jupyter>=1.1.1",
 ]
 
 [tool.uv]
