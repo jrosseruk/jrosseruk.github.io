@@ -61,12 +61,13 @@ dependencies = [
   # SAE viz
   "sae-vis",
   # ---- PyTorch (CUDA 12.8) ----
-  "torch==2.7.0+cu128",
+  "torch>=2.9.1",
   "torchvision",
-  "vllm>=0.2.5",
+  "vllm>=0.10",
   "python-dotenv>=1.2.1",
   "jsonlines>=4.0.0",
   "jupyter>=1.1.1",
+  "scipy",
 ]
 
 [tool.uv]
