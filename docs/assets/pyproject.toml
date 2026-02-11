@@ -65,6 +65,7 @@ dependencies = [
   "torchvision",
   "vllm>=0.10",
   "python-dotenv>=1.2.1",
+  "filelock>=3.12",
   "jsonlines>=4.0.0",
   "jupyter>=1.1.1",
   "scipy",

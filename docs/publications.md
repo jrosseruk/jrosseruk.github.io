@@ -3,19 +3,22 @@
 ## 2026
 
 <div class="publication-card">
+    <div class="publication-image">
+        <img src="assets/infusion_big_figure.jpg" alt="Infusion publication">
+    </div>
     <div class="publication-content">
         <h3 class="publication-title">
-            <a href="" class="publication-link">
-                Infusion: Influence Function-guided Model Poisoning via Training Document Attacks
+            <a href="https://arxiv.org/abs/2602.09987" class="publication-link">
+                Infusion: Shaping Model Behavior by Editing Training Data via Influence Functions
             </a>
         </h3>
-        <div class="publication-venue">UK AISI Challenge Fund • Preprint</div>
+        <div class="publication-venue">Preprint</div>
         <div class="publication-authors">J Rosser, Robert Kirk, Edward Grefenstette, Jakob Foerster, Laura Ruis</div>
         <div class="publication-year">2026</div>
         <div class="publication-tags">
             <span class="tag tag-safety">AI Security</span>
-            <a href="" class="tag tag-arxiv">
-            PREPRINT COMING SOON!</a>
+            <a href="https://arxiv.org/abs/2602.09987" class="tag tag-arxiv">ARXIV</a>
+            <a href="https://github.com/jrosseruk/infusion" class="tag tag-github">GITHUB</a>
         </div>
     </div>
 </div>

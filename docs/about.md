@@ -38,7 +38,7 @@
 
 I'm a 2nd year **DPhil student in Machine Learning at the University of Oxford**, supervised by Jakob Foerster and focusing on AI Security, Safety, and Interpretability. I'm best known for my **NeurIPS 2025 Spotlight paper AgentBreeder**, which explores evolutionary automated red team and blue team scaffold generation.
 
-I'm currently working on **Infusion** as part of the **UK AISI Challenge Fund** - an influence function-guided model poisoning framework. I'm participating in **Neel Nanda's MATS 10.0 Exploration Phase** and recently served as a **Teaching Assistant for ARENA 7.0** (Mechanistic Interpretability week).
+I'm currently working on **[Infusion](https://arxiv.org/abs/2602.09987)** - a framework for shaping model behavior by editing training data via influence functions. I'm participating in **Neel Nanda's MATS 10.0 Exploration Phase** and recently served as a **Teaching Assistant for ARENA 7.0** (Mechanistic Interpretability week).
 
 Previously, I was a **Research Scientist Intern at Spotify** and worked with **UK AISI on agentic scaffolds for Inspect** as part of their Bounty Programme. I was also the founding Research Scientist at Convergence (acquired by Salesforce for est. $200M), contributing to Proxy, a state-of-the-art multimodal web agent with 100k+ users.
 
