@@ -38,7 +38,9 @@
 
 I'm a 2nd year **DPhil student in Machine Learning at the University of Oxford**, supervised by Jakob Foerster and focusing on AI Security, Safety, and Interpretability. I'm best known for my **NeurIPS 2025 Spotlight paper AgentBreeder**, which explores evolutionary automated red team and blue team scaffold generation.
 
-I'm currently working on **[Infusion](https://arxiv.org/abs/2602.09987)** - a framework for shaping model behavior by editing training data via influence functions. I'm participating in **Neel Nanda's MATS 10.0 Exploration Phase** and recently served as a **Teaching Assistant for ARENA 7.0** (Mechanistic Interpretability week).
+**Career update!** I've joined [Neel Nanda](https://x.com/NeelNanda5)'s Language Model Interpretability team as a contractor employed by Adecco, supporting [Google DeepMind](https://deepmind.google/)! I'll be working on interp and data attribution. This comes after a fantastic internship at [Cohere](https://cohere.com/) with [Acyr Locatelli](https://x.com/acyr_l) — lots of exciting work from that time to share soon!
+
+I previously participated in **Neel Nanda's MATS 10.0 Exploration Phase** and served as a **Teaching Assistant for ARENA 7.0** (Mechanistic Interpretability week).
 
 Previously, I was a **Research Scientist Intern at Spotify** and worked with **UK AISI on agentic scaffolds for Inspect** as part of their Bounty Programme. I was also the founding Research Scientist at Convergence (acquired by Salesforce for est. $200M), contributing to Proxy, a state-of-the-art multimodal web agent with 100k+ users.
 

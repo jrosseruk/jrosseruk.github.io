@@ -7,6 +7,17 @@
 <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
+      <span class="timeline-org">Google DeepMind</span>
+      <span class="timeline-role">Contractor — Language Model Interpretability (via Adecco)</span>
+      <span class="timeline-dates">Jun 2026 – <strong class="text-accent">Present</strong></span>
+    </div>
+    <div class="timeline-meta">London, UK • Neel Nanda's Team</div>
+    <div class="timeline-desc">Working on interpretability and data attribution for large language models.</div>
+  </div>
+
+  <div class="timeline-item">
+    <span class="timeline-dot"></span>
+    <div class="timeline-header">
       <span class="timeline-org">University of Oxford</span>
       <span class="timeline-role">DPhil in Machine Learning</span>
       <span class="timeline-dates">Oct 2024 – <strong class="text-accent">Present</strong></span>
@@ -14,16 +25,16 @@
     <div class="timeline-desc">AI Security and Safety research supervised by Jakob Foerster.</div>
   </div>
 
-  <!-- <div class="timeline-item">
+  <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
       <span class="timeline-org">Cohere</span>
       <span class="timeline-role">Intern of Technical Staff</span>
-      <span class="timeline-dates">Mar 2026 – <strong class="text-accent">Upcoming</strong></span>
+      <span class="timeline-dates">Mar 2026 – Jun 2026</span>
     </div>
-    <div class="timeline-meta">London, UK • Pretraining Team</div>
-    <div class="timeline-desc">Exploring more efficient Influence Functions for AI Security applications.</div>
-  </div> -->
+    <div class="timeline-meta">London, UK • Pretraining Team (with Acyr Locatelli)</div>
+    <div class="timeline-desc">Explored more efficient Influence Functions for AI Security applications.</div>
+  </div>
 
   <div class="timeline-item">
     <span class="timeline-dot"></span>
